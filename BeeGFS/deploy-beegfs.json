@@ -36,6 +36,7 @@
       "type": "string",
       "defaultValue": "Standard_DS3_v2",
       "allowedValues": [
+        "Standard_B2ms",
         "Standard_DS1",
         "Standard_DS2",
         "Standard_DS3",

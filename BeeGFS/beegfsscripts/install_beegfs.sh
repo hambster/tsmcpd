@@ -202,9 +202,9 @@ setup_disks()
 install_beegfs_repo()
 {
     # Install BeeGFS repo    
-    wget -O beegfs-rhel7.repo http://www.beegfs.com/release/beegfs_7/dists/beegfs-rhel7.repo
+    wget -O beegfs-rhel7.repo https://www.beegfs.com/release/beegfs_7/dists/beegfs-rhel7.repo
     mv beegfs-rhel7.repo /etc/yum.repos.d/beegfs.repo    
-    rpm --import http://www.beegfs.com/release/beegfs_7/gpg/RPM-GPG-KEY-beegfs
+    rpm --import https://www.beegfs.com/release/beegfs_7/gpg/RPM-GPG-KEY-beegfs
 }
 
 install_beegfs()
